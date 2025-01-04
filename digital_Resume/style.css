@@ -1,0 +1,176 @@
+/* General Reset */
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none; 
+}
+.chess{
+    display: flex;
+}
+.chess span{
+    margin: 10px;
+    margin-right: 40px;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #fff;
+    background-color:black;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+    background:black;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Profile Section */
+.profile-section {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.profile-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.profile-details h1 {
+    font-size: 2rem;
+    color: #007BFF;
+}
+
+.profile-details .role {
+    font-size: 1.2rem;
+    color: #fff;
+    margin: 5px 0;
+}
+
+.profile-details a {
+    color:#fff;
+    text-decoration: none;
+}
+
+.profile-details a:hover {
+    text-decoration: underline;
+}
+
+.profile-details .contact-info span {
+    display: inline-block;
+    margin: 5px 0;
+}
+
+.download-resume-btn {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.download-resume-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Section Styles */
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #ddd;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #007BFF;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+p, ul {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: white;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Work Experience and Education */
+.job, .degree {
+    margin-bottom: 20px;
+}
+
+.job h3, .degree h3 {
+    font-size: 1.2rem;
+    color: #007BFF;
+}
+
+.job .duration, .degree p {
+    font-size: 0.9rem;
+    color:#fff;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    background: #007BFF;
+    color: #fff;
+    border-radius: 8px;
+}
+.projects {
+    margin: 20px 0;
+}
+
+.projects .project {
+    margin-bottom: 20px;
+}
+
+.project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.project-header h3 {
+    font-size: 1.2em;
+    margin: 0;
+    color:#fff;
+}
+
+.project-date {
+    font-size: 1em;
+    color: #ddd;
+    white-space: nowrap; /* Keeps the date on one line */
+}
+
+.projects ul {
+    padding-left: 20px;
+    margin: 0;
+}
+
+.projects ul li {
+    line-height: 1.6;
+    color:#fff;
+}
